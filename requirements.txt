@@ -1,0 +1,9 @@
+mem0ai>=0.1.110
+chromadb>=0.4.0
+openai>=1.0.0
+colorama>=0.4.6
+python-dotenv>=1.0.0
+rich>=13.0.0
+requests>=2.31.0
+httpx>=0.24.0
+ollama>=0.3.0
