@@ -57,31 +57,6 @@ cp .env.example .env
 python main.py
 ```
 
-### 🏃‍♂️ Quick Start
-
-1. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Set up environment:**
-
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
-
-3. **For Ollama users (Local AI):**
-
-   ```bash
-   # Install required models
-   ollama pull gemma3:1b           # For conversation
-   ollama pull nomic-embed-text    # For memory embeddings
-   ```
-
-4. **Run the application:**
-
 ## ✨ Features
 
 ### 🧠 Memory System
@@ -136,11 +111,11 @@ OPENAI_MODEL=gpt-4o-mini
 
 # Companion Settings
 COMPANION_NAME=AI동반자
-COMPANION_PERSONALITY=caring
+COMPANION_DEFAULT_PERSONALITY=caring
 
 # UI Preferences
 UI_THEME=magenta
-SHOW_TYPING_ANIMATION=true
+UI_SHOW_TYPING_ANIMATION=true
 
 # Memory Settings
 MEMORY_SEARCH_LIMIT=5
